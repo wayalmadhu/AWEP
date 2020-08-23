@@ -1,0 +1,17 @@
+##Callback Functions Fundamentals
+
+helloWorld(function () {console.log("Callback using Annonymous");});
+VM60:1 Callback using Annonymous
+
+helloWorld(() => {console.log("Callback using Arrow functions");});
+VM69:1 Callback using Arrow functions
+
+let callbckFn = function () { console.log("Callback using annynomus; via variable");};
+helloWorld(callbckFn);
+VM80:1 Callback using annynomus; via variable
+
+
+let arrwFn = () => {console.log("Callback using Arrow; via variable");};
+helloWorld(arrwFn);
+VM96:1 Callback using Arrow; via variable
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assi6.2</title>
+
+    <link rel="stylesheet" href="ass6.2css">
+
+    <script src="ass6.2.js"></script>
+  
+  </head>
+  
+  <body>
+
+    <div style=" 
+    display: flex;
+    flex-direction: column;"
+    >
+      Someone has posted something.
+    </div>
+    
+    <div>
+      <input type="text"
+      id="inputId"
+      style="margin-left: 10px;"
+      placeholder="Type comment here.">      
+    </div>
+
+    <div style=" 
+    display: flex;
+    margin: 10px;">
+
+      <button id="likeId"
+      style="margin-left: 10px;"
+      onclick="likeFun()">
+        Like 1
+      </button>
+        
+      <button id="commentId"
+      style="margin-left: 10px;"
+      onclick="commentFun()"
+      >
+        User Comment
+      </button>
+    </div>
+    
+    <div id="commentDiv">
+      <div>
+        
+      </div>
+    </div>
+  
+  </body>
+
+  </html>

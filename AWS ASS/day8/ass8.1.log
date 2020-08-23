@@ -1,0 +1,74 @@
+setInterval(function () {console.log("I am interval, using annonymous!!");}, 20000);
+46
+VM36:1 I am interval, using annonymous!!
+VM36:1 I am interval, using annonymous!!
+setInterval(() => {console.log("I am also interval, using Arrow");}, 20000);
+
+98
+VM36:1 I am interval, using annonymous!!
+VM60:1 I am also interval, using Arrow
+let anfn = function () {console.log("I am getting uses as parameter inside the setinveral");};
+undefined
+setInterval(anfn, 1000);
+162
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM36:1 I am interval, using annonymous!!
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM60:1 I am also interval, using Arrow
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM36:1 I am interval, using annonymous!!
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM60:1 I am also interval, using Arrow
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM36:1 I am interval, using annonymous!!
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM60:1 I am also interval, using Arrow
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral
+VM71:1 I am getting uses as parameter inside the setinveral

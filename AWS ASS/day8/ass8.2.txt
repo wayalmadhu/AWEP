@@ -1,0 +1,30 @@
+##Array Fundamental - Add, Updated, Delete, Access Operation
+
+let arr = ["Aarti", "dipak", "lata", "vitthal", "sanchita"];
+undefined
+
+arr;
+(5) ["Aarti", "dipak", "lata", "vitthal", "sanchita"]
+
+
+arr.push("akask");
+6
+arr;
+(6) ["Aarti", "dipak", "lata", "vitthal", "sanchita", "akash"]
+
+
+arr.pop();
+"akash"
+arr;
+(5) ["Aarti", "dipak", "lata", "vitthal", "sanchita"]
+
+
+
+arr[0] = "Aartiiiii";
+"Aartiiiii"
+arr;
+(5) ["Aartiiiii", "dipak", "lata", "vitthal", "sanchita"]
+
+
+arr[1];
+"dipak"

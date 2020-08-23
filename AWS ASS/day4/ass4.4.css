@@ -1,0 +1,11 @@
+.button {
+    font-size: 10px;
+    color: whitesmoke;
+    font-family:monospace;
+    padding: 10px;
+    width: 20vw;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: black;
+    
+  }

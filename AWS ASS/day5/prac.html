@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+    let likecount=1;
+    let commentcount=1;
+      function like(){
+      let a=document.querySelector("#id1");
+      a.innerHTML=likecount;
+      likecount++;
+      }
+      function Comment(){
+        let a=document.querySelector("#id1");
+        a.innerHTML=commentcount;
+        commentcount++;
+      }
+
+    </script>
+
+
+</head>
+
+<body>
+    <BUtton onclick="like()" id="#id1">LIKE 1</BUtton>
+    <BUtton onclick="comment()" id="#id2">COMMENT</BUtton> 
+    <div id="commentbox"></div>    
+</body>
+</html>

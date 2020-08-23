@@ -1,0 +1,12 @@
+
+let person = {id: 10,firstName: "Sachin",lastName: "Tendulkar",};
+undefined
+
+person.id;
+10
+
+person.firstName;
+"Sachin"
+
+person.lastName;
+"Tendulkar"

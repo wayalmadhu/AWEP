@@ -1,0 +1,15 @@
+
+##Functions Fundamental
+
+function helloWorld() {console.log("hello world");};
+helloWorld();
+VM122:1 hello world
+
+
+let helloWorld1 = function () {console.log("hello world");};
+helloWorld1;
+ƒ () {console.log("hello world");}
+
+let helloWorld2 = () => {console.log("hello world");};
+helloWorld2;
+() => {console.log("hello world");}
